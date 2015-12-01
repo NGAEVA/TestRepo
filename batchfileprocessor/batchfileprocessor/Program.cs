@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 using BatchFileFramework;
 namespace batchFileProcessor
-{
+{//Testing git changes
 	class Program
-	{
+	{//Test that shite again
 		static long totalFilesLen = 0;
 
 		static void testNotify(String msg)
