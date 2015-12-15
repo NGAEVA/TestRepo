@@ -174,7 +174,8 @@ namespace BatchFileFramework
 			if (OnProcess != null)
 				OnProcess(this, fileInfo);
 			if (OnNotify != null)
-				OnNotify("Processed file " +  fileInfo.ToString());
+				OnNotify("Processed file " +  fileInfo.ToString()+ fileInfo.GetType());
+            //get the file type to txt
 
 		}
 	}
